@@ -2,14 +2,21 @@
   "name": "phantomjs-promise",
   "version": "1.0.0",
   "description": "Test PhantomJS Javascript native Promise compatability.",
+  "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "karma start"
   },
   "author": "Detoo <daily.detoo@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "es6-promise": "^3.1.2",
     "karma": "^0.13.22",
-    "phantomjs": "^2.1.3"
+    "karma-mocha": "^0.2.2",
+    "karma-mocha-reporter": "^2.0.0",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "mocha": "^2.4.5",
+    "phantomjs": "^2.1.3",
+    "phantomjs-prebuilt": "^2.1.7"
   }
 }
