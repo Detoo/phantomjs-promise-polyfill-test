@@ -1,5 +1,7 @@
+var glob = require('glob');
+
 module.exports = {
-  entry: './src/tests/main.js',
+  entry: glob.sync('./src/tests/**/*.spec.js'),
   output: {
     path: './build/tests',
     filename: "bundle.js"

@@ -1,3 +1,4 @@
+import './config';
 import {expect} from 'chai';
 
 describe('Browser', function() {
