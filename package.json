@@ -5,7 +5,7 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "build-tests": "webpack",
+    "build-tests": "webpack --config webpack.config.tests.js",
     "test": "karma start"
   },
   "author": "Detoo <daily.detoo@gmail.com>",

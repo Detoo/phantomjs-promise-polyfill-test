@@ -1,3 +1,5 @@
+// Webpack configurations for unit-testing
+
 var glob = require('glob');
 
 module.exports = {
